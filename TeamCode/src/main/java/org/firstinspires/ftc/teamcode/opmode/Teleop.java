@@ -9,20 +9,11 @@ import com.qualcomm.robotcore.eventloop.opmode.TeleOp;
 
 import org.firstinspires.ftc.teamcode.common.commandbase.drivetrain;
 import org.firstinspires.ftc.teamcode.common.BOt;
-import org.firstinspires.ftc.teamcode.pedroPathing.Constants;
-
-
-
 
 @TeleOp(name = "Teleop")
 public class Teleop extends CommandOpMode {
 
-
-
-
     GamepadEx gamePad1;
-
-
 
     @Override
     public void initialize() {
@@ -38,4 +29,5 @@ public class Teleop extends CommandOpMode {
             telemetry.update();
         }
     }
+
 
